@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnShowName.setOnClickListener {
             saludar()
+
+            println("hola mundo desde kotlin")
         }
 
     }
